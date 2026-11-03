@@ -1,0 +1,213 @@
+<svg width="270" height="260" viewBox="0 0 270 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Soft 3D drop shadow -->
+    <filter id="desk-shadow" x="-10%" y="-8%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="3" dy="6" stdDeviation="5" floodColor="#000000" floodOpacity="0.5" />
+    </filter>
+
+    <!-- Tactile matte dark post-it paper gradient -->
+    <linearGradient id="paper-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#24211E" />
+      <stop offset="50%" stopColor="#1C1917" />
+      <stop offset="100%" stopColor="#151312" />
+    </linearGradient>
+
+    <!-- Drool signature vibrant rainbow gradient -->
+    <linearGradient id="rainbow-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#7ECFAE" />
+      <stop offset="25%" stopColor="#94D1E4" />
+      <stop offset="50%" stopColor="#CFC0E9" />
+      <stop offset="75%" stopColor="#E78BA0" />
+      <stop offset="100%" stopColor="#FAC042" />
+    </linearGradient>
+
+    <!-- Washi tape gradient -->
+    <linearGradient id="washi-tape" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="rgba(255, 255, 255, 0.4)" />
+      <stop offset="50%" stopColor="rgba(255, 255, 255, 0.85)" />
+      <stop offset="100%" stopColor="rgba(255, 255, 255, 0.4)" />
+    </linearGradient>
+
+    <!-- Corner fold shadow -->
+    <linearGradient id="fold-shadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="rgba(0,0,0,0)" />
+      <stop offset="100%" stopColor="rgba(0,0,0,0.5)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Note with Shadow -->
+  <g filter="url(#desk-shadow)">
+    <!-- Dark Paper Sheet -->
+    <rect
+      x="12"
+      y="18"
+      width="246"
+      height="230"
+      rx="12"
+      fill="url(#paper-bg)"
+      stroke="#332F2C"
+      stroke-width="1.8"
+    />
+
+    <!-- Subtle Notebook Grid Lines -->
+    <path
+      d="M22 66 H248 M22 104 H248 M22 142 H248 M22 180 H248 M22 218 H248"
+      stroke="#2E2A27"
+      stroke-width="1"
+      stroke-dasharray="2 3"
+    />
+
+    <!-- Header Banner -->
+    <rect x="22" y="26" width="226" height="34" rx="8" fill="#141211" stroke="#2E2A27" stroke-width="1.2" />
+    <rect x="24" y="28" width="222" height="4" rx="2" fill="url(#rainbow-bar)" />
+
+    <!-- Cute Window Dots -->
+    <circle cx="36" cy="45" r="3.5" fill="#E78BA0" />
+    <circle cx="47" cy="45" r="3.5" fill="#FAC042" />
+    <circle cx="58" cy="45" r="3.5" fill="#7ECFAE" />
+
+    <!-- Header Text -->
+    <text
+      x="142"
+      y="49"
+      text-anchor="middle"
+      fill="#FDE047"
+      font-family="Recoleta, var(--font-recoleta), Georgia, serif"
+      font-weight="700"
+      font-size="13"
+      letter-spacing="0.08em"
+    >
+      ✦ DEV WORKSPACE ✦
+    </text>
+
+    <!-- Decorative cute sparkle star in top right -->
+    <path d="M228 36 Q228 40 232 40 Q228 40 228 44 Q228 40 224 40 Q228 40 228 36 Z" fill="#FAC042" />
+
+    <!-- Item 1: CoupleWatch.in (Yellow Text, Mint Checkbox & Live Tag) -->
+    <g transform="translate(22, 68)">
+      <rect x="0" y="0" width="226" height="32" rx="8" fill="#1A1816" stroke="#292523" stroke-width="1" />
+      
+      <!-- Mint Checkbox -->
+      <rect x="6" y="5" width="22" height="22" rx="6" fill="#7ECFAE" stroke="#141211" stroke-width="1" />
+      <path d="M11 16.5 L15 20.5 L23 11.5" stroke="#141211" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      
+      <!-- Text in Bright Yellow -->
+      <text
+        x="36"
+        y="21"
+        fill="#FDE047"
+        font-family="Poppins, var(--font-poppins), sans-serif"
+        font-weight="700"
+        font-size="13"
+      >
+        CoupleWatch.in
+      </text>
+
+      <!-- Mint LIVE Tag -->
+      <rect x="172" y="7" width="46" height="18" rx="9" fill="#141211" stroke="#7ECFAE" stroke-width="1" />
+      <text x="195" y="19" text-anchor="middle" fill="#7ECFAE" font-family="Poppins, sans-serif" font-weight="700" font-size="8.5" letter-spacing="0.04em">LIVE ↗</text>
+    </g>
+
+    <!-- Item 2: Mission Copilot (Yellow Text, Sky Blue Checkbox & SIH Finalist Tag) -->
+    <g transform="translate(22, 106)">
+      <rect x="0" y="0" width="226" height="32" rx="8" fill="#1A1816" stroke="#292523" stroke-width="1" />
+      
+      <!-- Sky Blue Checkbox -->
+      <rect x="6" y="5" width="22" height="22" rx="6" fill="#94D1E4" stroke="#141211" stroke-width="1" />
+      <path d="M11 16.5 L15 20.5 L23 11.5" stroke="#141211" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      
+      <!-- Text in Bright Yellow -->
+      <text
+        x="36"
+        y="21"
+        fill="#FDE047"
+        font-family="Poppins, var(--font-poppins), sans-serif"
+        font-weight="700"
+        font-size="13"
+      >
+        Mission Copilot
+      </text>
+
+      <!-- Blue SIH Finalist Tag -->
+      <rect x="156" y="7" width="62" height="18" rx="9" fill="#141211" stroke="#94D1E4" stroke-width="1" />
+      <text x="187" y="19" text-anchor="middle" fill="#94D1E4" font-family="Poppins, sans-serif" font-weight="800" font-size="8" letter-spacing="0.04em">SIH FINAL</text>
+    </g>
+
+    <!-- Item 3: React • Node • Supabase (Yellow Text, Lavender Checkbox) -->
+    <g transform="translate(22, 144)">
+      <rect x="0" y="0" width="226" height="32" rx="8" fill="#1A1816" stroke="#292523" stroke-width="1" />
+      
+      <!-- Lavender Checkbox -->
+      <rect x="6" y="5" width="22" height="22" rx="6" fill="#CFC0E9" stroke="#141211" stroke-width="1" />
+      <path d="M11 16.5 L15 20.5 L23 11.5" stroke="#141211" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      
+      <!-- Text in Bright Yellow -->
+      <text
+        x="36"
+        y="20.5"
+        fill="#FDE047"
+        font-family="Poppins, var(--font-poppins), sans-serif"
+        font-weight="700"
+        font-size="12"
+      >
+        React • Node • Supabase
+      </text>
+    </g>
+
+    <!-- Item 4: AI / ML • Bengaluru, IN (Yellow Text, Coral Checkbox) -->
+    <g transform="translate(22, 182)">
+      <rect x="0" y="0" width="226" height="32" rx="8" fill="#1A1816" stroke="#292523" stroke-width="1" />
+      
+      <!-- Coral Checkbox -->
+      <rect x="6" y="5" width="22" height="22" rx="6" fill="#E78BA0" stroke="#141211" stroke-width="1" />
+      <path d="M11 16.5 L15 20.5 L23 11.5" stroke="#141211" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      
+      <!-- Text in Bright Yellow -->
+      <text
+        x="36"
+        y="20.5"
+        fill="#FDE047"
+        font-family="Poppins, var(--font-poppins), sans-serif"
+        font-weight="700"
+        font-size="12"
+      >
+        AI / ML • Bengaluru, IN
+      </text>
+    </g>
+
+    <!-- Bottom Rainbow Accent Bar -->
+    <rect x="22" y="224" width="186" height="4" rx="2" fill="url(#rainbow-bar)" />
+
+    <!-- Curled Bottom Right Corner Flap -->
+    <path
+      d="M232 248 L258 222 L258 240 Q258 248 250 248 Z"
+      fill="url(#fold-shadow)"
+    />
+    <path
+      d="M232 248 L258 222 L232 222 Z"
+      fill="#FDE047"
+      stroke="#332F2C"
+      stroke-width="1.5"
+    />
+  </g>
+
+  <!-- Washi Tape Strip at Top (Tilted with cute stitch lines) -->
+  <g transform="rotate(-2.5 135 15)">
+    <rect
+      x="85"
+      y="5"
+      width="100"
+      height="22"
+      rx="3"
+      fill="url(#washi-tape)"
+      stroke="rgba(255, 255, 255, 0.4)"
+      stroke-width="1"
+    />
+    <!-- Colorful washi tape dots -->
+    <circle cx="100" cy="16" r="2.5" fill="#7ECFAE" opacity="0.8" />
+    <circle cx="118" cy="16" r="2.5" fill="#94D1E4" opacity="0.8" />
+    <circle cx="136" cy="16" r="2.5" fill="#CFC0E9" opacity="0.8" />
+    <circle cx="154" cy="16" r="2.5" fill="#E78BA0" opacity="0.8" />
+    <circle cx="170" cy="16" r="2.5" fill="#FAC042" opacity="0.8" />
+  </g>
+</svg>

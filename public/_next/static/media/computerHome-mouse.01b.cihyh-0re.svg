@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="473" height="372" viewBox="0 0 473 372" fill="none">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mask id="mask0_4347_1310" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="125" y="31" width="161" height="130">
+
+</mask>
+<g mask="url(#mask0_4347_1310)">
+
+
+
+
+
+
+
+
+
+<g opacity="0.5">
+
+
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g>
+
+
+
+
+<path d="M373.245 336.475C373.245 336.475 374.281 317.823 346.702 319.709C319.124 321.596 314.146 332.285 315.804 341.717C317.461 351.148 324.086 351.988 337.783 351.988C354.163 351.988 373.863 341.717 373.241 336.48L373.245 336.475Z" fill="#F4F1EC" stroke="#212121" stroke-miterlimit="10"/>
+<path d="M373.255 336.843C373.255 336.843 371.379 328.092 356.79 336.16C342.201 344.227 319.687 354.749 315.519 341.971" stroke="#212121" stroke-miterlimit="10"/>
+<path d="M322.609 350.661C322.609 350.661 348.176 359.524 379.776 351.994C411.376 344.464 384.004 337.244 373.177 339.121C373.177 339.121 356.567 356.76 322.609 350.661Z" fill="#F4F1EC" fill-opacity="0.74"/>
+
+
+<defs>
+<pattern id="pattern0_4347_1310" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_4347_1310" transform="matrix(0.00130433 0 0 0.00173611 -0.167818 0)"/>
+</pattern>
+<pattern id="pattern1_4347_1310" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_4347_1310" transform="matrix(0.000379746 0 0 0.000652361 0.00490525 0)"/>
+</pattern>
+<pattern id="pattern2_4347_1310" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image2_4347_1310" transform="scale(0.000621891 0.00515464)"/>
+</pattern>
+<pattern id="pattern3_4347_1310" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image3_4347_1310" transform="scale(0.00107527 0.00833333)"/>
+</pattern>
+<pattern id="pattern4_4347_1310" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image4_4347_1310" transform="matrix(0.00558312 0 0 0.00392712 -0.0348348 -0.00990728)"/>
+</pattern>
+<linearGradient id="paint0_linear_4347_1310" x1="202.893" y1="50.2861" x2="202.893" y2="126.787" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AAF0CE"/>
+<stop offset="0.0432767" stop-color="#F2EEE8"/>
+<stop offset="0.971174" stop-color="#F2EEE8"/>
+<stop offset="1" stop-color="#AAF0CE"/>
+</linearGradient>
+
+
+
+
+
+</defs>
+</svg>

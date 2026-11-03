@@ -1,0 +1,176 @@
+<svg width="280" height="280" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Soft 3D drop shadow -->
+    <filter id="desk-shadow" x="-10%" y="-8%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="3" dy="7" stdDeviation="5" floodColor="#000000" floodOpacity="0.55" />
+    </filter>
+
+    <!-- Warm sunny canary post-it gradient -->
+    <linearGradient id="postit-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFFDF2" />
+      <stop offset="45%" stopColor="#FEF9C3" />
+      <stop offset="100%" stopColor="#FDE047" />
+    </linearGradient>
+
+    <!-- Translucent scotch tape gradient -->
+    <linearGradient id="scotch-tape" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="rgba(255, 255, 255, 0.45)" />
+      <stop offset="50%" stopColor="rgba(255, 255, 255, 0.85)" />
+      <stop offset="100%" stopColor="rgba(255, 255, 255, 0.45)" />
+    </linearGradient>
+
+    <!-- Rainbow header bar -->
+    <linearGradient id="rainbow-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#7ECFAE" />
+      <stop offset="25%" stopColor="#94D1E4" />
+      <stop offset="50%" stopColor="#CFC0E9" />
+      <stop offset="75%" stopColor="#E78BA0" />
+      <stop offset="100%" stopColor="#FAC042" />
+    </linearGradient>
+
+    <!-- Curled corner shadow -->
+    <linearGradient id="curl-shadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="rgba(0,0,0,0)" />
+      <stop offset="100%" stopColor="rgba(0,0,0,0.35)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sticky Note Body with Shadow -->
+  <g filter="url(#desk-shadow)">
+    <!-- Post-it paper -->
+    <rect
+      x="14"
+      y="18"
+      width="252"
+      height="250"
+      rx="10"
+      fill="url(#postit-bg)"
+      stroke="#1C1917"
+      stroke-width="2"
+    />
+
+    <!-- Subtle notebook ruled lines -->
+    <path
+      d="M26 68 H254 M26 108 H254 M26 150 H254 M26 192 H254 M26 230 H254"
+      stroke="#FACC15"
+      stroke-width="1.2"
+      stroke-dasharray="2 3"
+      opacity="0.8"
+    />
+
+    <!-- Header Terminal Banner -->
+    <rect x="24" y="28" width="232" height="32" rx="7" fill="#1C1917" stroke="#292524" stroke-width="1" />
+    <rect x="26" y="30" width="228" height="3.5" rx="1.5" fill="url(#rainbow-bar)" />
+    
+    <!-- Traffic light dots -->
+    <circle cx="38" cy="46" r="3.5" fill="#E78BA0" />
+    <circle cx="49" cy="46" r="3.5" fill="#FAC042" />
+    <circle cx="60" cy="46" r="3.5" fill="#7ECFAE" />
+
+    <!-- Header Title -->
+    <text
+      x="146"
+      y="49.5"
+      text-anchor="middle"
+      fill="#FDE047"
+      font-family="Recoleta, var(--font-recoleta), Georgia, serif"
+      font-weight="700"
+      font-size="12"
+      letter-spacing="0.08em"
+    >
+      ✦ DEVELOPER LOG ✦
+    </text>
+
+    <!-- Meme Box 1: Stage 1 of Debugging -->
+    <rect x="24" y="68" width="232" height="34" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+    <rect x="24" y="68" width="4" height="34" rx="2" fill="#EF4444" />
+    <text x="34" y="81" fill="#DC2626" font-family="Poppins, sans-serif" font-weight="800" fontSize="8" letterSpacing="0.04em">
+      // STAGE 1: 10:00 AM 😭
+    </text>
+    <text x="34" y="94.5" fill="#0F172A" font-family="Poppins, sans-serif" font-weight="700" fontSize="9.5">
+      "My code doesn't work. I have no idea why."
+    </text>
+
+    <!-- Meme Box 2: Stage 2 of Debugging -->
+    <rect x="24" y="108" width="232" height="34" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" />
+    <rect x="24" y="108" width="4" height="34" rx="2" fill="#10B981" />
+    <text x="34" y="121" fill="#059669" font-family="Poppins, sans-serif" font-weight="800" fontSize="8" letterSpacing="0.04em">
+      // STAGE 2: 3:00 AM 😱
+    </text>
+    <text x="34" y="134.5" fill="#0F172A" font-family="Poppins, sans-serif" font-weight="700" fontSize="9.5">
+      "My code WORKS! I have NO IDEA why."
+    </text>
+
+    <!-- Meme Comic Punchline Card -->
+    <g transform="translate(24, 148)">
+      <rect x="0" y="0" width="232" height="54" rx="6" fill="#1C1917" stroke="#292524" stroke-width="1" />
+      
+      <!-- Suspicious Alert Pill -->
+      <rect x="8" y="7" width="138" height="17" rx="4" fill="#374151" />
+      <circle cx="16" cy="15.5" r="3" fill="#10B981" />
+      <text x="24" y="19" fill="#34D399" font-family="monospace" font-weight="700" font-size="7.8">
+        0 ERRORS, 0 WARNINGS
+      </text>
+
+      <!-- Shruggie emoji -->
+      <text x="195" y="21" text-anchor="middle" fill="#FAC042" font-family="system-ui, sans-serif" font-weight="800" font-size="11">
+        ¯\_(ツ)_/¯
+      </text>
+
+      <!-- Punchline Quote in Yellow -->
+      <text x="10" y="36" fill="#FDE047" font-family="Poppins, sans-serif" font-weight="800" font-size="9.5">
+        "Me: What are you hiding from me?!"
+      </text>
+      <text x="10" y="47" fill="#94A3B8" font-family="Poppins, sans-serif" font-weight="600" font-size="7.5">
+        *changes 1 line of CSS -> database deletes itself*
+      </text>
+    </g>
+
+    <!-- Footer Laws of Coding -->
+    <g transform="translate(24, 208)">
+      <!-- Rule 1 Pill -->
+      <rect x="0" y="0" width="156" height="18" rx="4" fill="#FEF08A" stroke="#CA8A04" stroke-width="0.8" />
+      <text x="6" y="12.5" fill="#713F12" font-family="Poppins, sans-serif" font-weight="700" font-size="7.5">
+        🛑 If it works, do NOT breathe near it
+      </text>
+
+      <!-- Rule 2 Pill -->
+      <rect x="0" y="22" width="175" height="18" rx="4" fill="#FEF08A" stroke="#CA8A04" stroke-width="0.8" />
+      <text x="6" y="34.5" fill="#713F12" font-family="Poppins, sans-serif" font-weight="700" font-size="7.5">
+        🚀 git push --force &amp;&amp; pray to prod
+      </text>
+    </g>
+
+    <!-- Bottom Right Curled Corner Flap -->
+    <path
+      d="M240 268 L266 242 L266 260 Q266 268 258 268 Z"
+      fill="url(#curl-shadow)"
+    />
+    <path
+      d="M240 268 L266 242 L240 242 Z"
+      fill="#EAB308"
+      stroke="#1C1917"
+      stroke-width="1.5"
+    />
+  </g>
+
+  <!-- Translucent Top Adhesive Scotch Tape -->
+  <g transform="rotate(-3 140 16)">
+    <rect
+      x="88"
+      y="6"
+      width="104"
+      height="22"
+      rx="3"
+      fill="url(#scotch-tape)"
+      stroke="rgba(33, 33, 33, 0.3)"
+      stroke-width="1"
+    />
+    <!-- Cute washi tape pastel dots -->
+    <circle cx="104" cy="17" r="2.5" fill="#7ECFAE" opacity="0.8" />
+    <circle cx="122" cy="17" r="2.5" fill="#94D1E4" opacity="0.8" />
+    <circle cx="140" cy="17" r="2.5" fill="#CFC0E9" opacity="0.8" />
+    <circle cx="158" cy="17" r="2.5" fill="#E78BA0" opacity="0.8" />
+    <circle cx="174" cy="17" r="2.5" fill="#FAC042" opacity="0.8" />
+  </g>
+</svg>
