@@ -12,7 +12,7 @@ function getBulletIcon(text) {
   if (lower.includes('hackathon') || lower.includes('finalist') || lower.includes('award') || lower.includes('honor')) {
     return { name: 'trophy', color: '#D97706' };
   }
-  if (lower.includes('student') || lower.includes('university') || lower.includes('degree') || lower.includes('education') || lower.includes('academic')) {
+  if (lower.includes('student') || lower.includes('university') || lower.includes('college') || lower.includes('school') || lower.includes('degree') || lower.includes('education') || lower.includes('academic')) {
     return { name: 'graduation', color: '#7C3AED' };
   }
   if (lower.includes('sports') || lower.includes('championship')) {
@@ -186,7 +186,7 @@ export function FullscreenModal({ activeItem, onClose }) {
               </div>
               <div>
                 <span style={{ color: '#888', display: 'block', fontSize: '11px' }}>EDUCATION</span>
-                <strong style={{ color: '#4F46E5' }}>S-VYASA CS</strong>
+                <strong style={{ color: '#4F46E5' }}>Newton School of Technology</strong>
               </div>
               <div>
                 <span style={{ color: '#888', display: 'block', fontSize: '11px' }}>PRIMARY STACK</span>

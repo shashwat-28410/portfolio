@@ -136,11 +136,11 @@ export function ProjectShipLog({ ambient = true, onClick }) {
           <polygon points="280 142 276 148 279 148 278 153 283 147 280 147 280 142" fill="#0C4A6E" />
           <text x="305" y="150" textAnchor="middle" fill="#0C4A6E" fontSize="6.8" fontWeight="800">LIVE PROD</text>
 
-          {/* Milestone Row 3: S-VYASA University & Leadership */}
+          {/* Milestone Row 3: Newton School of Technology & Leadership */}
           <rect x="46" y="168" width="297" height="30" rx="4" fill="#F8FAFC" stroke="#E2E8F0" strokeWidth="0.8" />
           <rect x="46" y="168" width="5" height="30" rx="2" fill="#A855F7" />
           <text x="58" y="181.5" fill="#0F172A" fontFamily="var(--font-poppins), sans-serif" fontWeight="700" fontSize="8.8">
-            S-VYASA University (Bengaluru)
+            Newton School of Technology
           </text>
           <text x="58" y="192" fill="#64748B" fontFamily="var(--font-poppins), sans-serif" fontSize="6.8">
             Computer Science • Sports President &amp; Lead

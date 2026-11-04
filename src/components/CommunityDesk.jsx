@@ -331,7 +331,7 @@ export function CommunityDesk() {
                     jobTitle="Full-Stack Developer | AI/ML"
                     handle="@shashwat-28410"
                     email="iamrajveer28@gmail.com"
-                    orgName="S-VYASA University • Bengaluru"
+                    orgName="Newton School of Technology"
                     ambient={true}
                     onClick={() => openItem('bio')}
                   />

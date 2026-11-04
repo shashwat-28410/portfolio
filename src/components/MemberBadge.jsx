@@ -86,7 +86,7 @@ export function MemberBadge({
   handle = '@shashwat-28410',
   signature = null,
   email = 'iamrajveer28@gmail.com',
-  orgName = 'S-VYASA University • Bengaluru',
+  orgName = 'Newton School of Technology',
   owner = true,
   ambient = true,
   onClick

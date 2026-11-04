@@ -141,16 +141,16 @@ export const DESK_CARDS = [
     iconSrc: '/_next/static/media/Star 14 (Stroke).0p7qyphp8n9l4.svg',
     window: {
       title: 'EXPERIENCE, EDUCATION & TIMELINE',
-      heading: 'S-VYASA University, Hackathon honors, leadership & career journey.',
+      heading: 'Newton School of Technology, Hackathon honors, leadership & career journey.',
       body: [
         "A chronological summary of my academic journey, hackathon competitions, student leadership roles, and software builds.",
         'I am actively open to developer internships, freelance contracts, and collaborative full-stack projects.'
       ],
       image: '/images/memes/shiplog-meme.png',
-      shout: 'S-VYASA UNIVERSITY • SIH FINALIST • SPORTS PRESIDENT',
+      shout: 'NEWTON SCHOOL OF TECHNOLOGY • SIH FINALIST • SPORTS PRESIDENT',
       bulletsIntro: 'Milestones & Experience:',
       bullets: [
-        'Computer Science Student — S-VYASA University, Bengaluru, Karnataka, India',
+        'Computer Science Student — Newton School of Technology, Bengaluru, Karnataka, India',
         'Smart India Hackathon Finalist — Built Mission Copilot AI lunar simulation dashboard with telemetry monitoring',
         'Founder & Developer — CoupleWatch (couplewatch.in), synchronized movie watch-party platform',
         'Sports President — College: Coordinated university sports activities, logistics, and student participation',
@@ -180,7 +180,7 @@ export const DESK_CARDS = [
       bulletsIntro: 'Quick facts & current focus:',
       bullets: [
         'Based in: Bengaluru, Karnataka, India',
-        'University: S-VYASA University (Computer Science)',
+        'Education: Newton School of Technology (Computer Science)',
         'Primary Focus: React, Node.js, Express.js, Supabase, PostgreSQL, WebRTC, OpenAI API',
         'Current Status: Open to Software Developer Internships, Freelance Projects & Hackathon Collaborations',
         'Contact: iamrajveer28@gmail.com'
