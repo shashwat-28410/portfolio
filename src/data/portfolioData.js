@@ -67,12 +67,13 @@ export const DESK_CARDS = [
         'I focus on tools that enable rapid prototyping without compromising production performance and scalability.'
       ],
       image: '/images/memes/techstack-meme.png',
-      shout: 'REACT • NODE.JS • SUPABASE • WEBRTC • AI/ML',
-      bulletsIntro: 'Technical skills breakdown:',
+      shout: 'NODE.JS • EXPRESS.JS • REACT.JS • PYTHON • JS',
+      bulletsIntro: 'Technical skills & tech stack breakdown:',
       bullets: [
-        'Languages: JavaScript (ES6+), Python, SQL, HTML5, CSS3',
-        'Frontend: React, Vite, React Native, Tailwind CSS, Responsive Web Design',
-        'Backend & Databases: Node.js, Express.js, PostgreSQL, Supabase, REST APIs',
+        'Known Tech Stacks: Node.js, Express.js, React.js, Python, JavaScript (JS)',
+        'Frontend: React.js, React Native, Vite, Tailwind CSS, Responsive Web Design',
+        'Backend & APIs: Node.js, Express.js, PostgreSQL, Supabase, RESTful APIs',
+        'Languages: JavaScript (JS / ES6+), Python, SQL, HTML5, CSS3',
         'AI & Real-Time: OpenAI API, WebRTC, Web Speech API, AI/ML fundamentals',
         'Tools & Workflow: Git, GitHub, VS Code, Vercel, npm, Postman'
       ],
@@ -181,7 +182,8 @@ export const DESK_CARDS = [
       bullets: [
         'Based in: Bengaluru, Karnataka, India',
         'Education: Newton School of Technology (Computer Science)',
-        'Primary Focus: React, Node.js, Express.js, Supabase, PostgreSQL, WebRTC, OpenAI API',
+        'Known Tech Stacks: Node.js, Express.js, React.js, Python, JS',
+        'Primary Focus: Node.js, Express.js, React.js, Python, Supabase, PostgreSQL, WebRTC, OpenAI API',
         'Current Status: Open to Software Developer Internships, Freelance Projects & Hackathon Collaborations',
         'Contact: iamrajveer28@gmail.com'
       ],

@@ -30,7 +30,7 @@ function getBulletIcon(text) {
   if (lower.includes('email') || lower.includes('contact') || lower.includes('mailto')) {
     return { name: 'mail', color: '#059669' };
   }
-  if (lower.includes('languages:') || lower.includes('frontend:') || lower.includes('code')) {
+  if (lower.includes('tech stack') || lower.includes('known tech') || lower.includes('languages:') || lower.includes('frontend:') || lower.includes('code')) {
     return { name: 'code', color: '#2563EB' };
   }
   if (lower.includes('tools') || lower.includes('experiments') || lower.includes('primary focus')) {
@@ -190,7 +190,7 @@ export function FullscreenModal({ activeItem, onClose }) {
               </div>
               <div>
                 <span style={{ color: '#888', display: 'block', fontSize: '11px' }}>PRIMARY STACK</span>
-                <strong style={{ color: '#D97706' }}>React • Supabase</strong>
+                <strong style={{ color: '#D97706' }}>Node.js • Express.js • React.js • Python • JS</strong>
               </div>
             </div>
           </div>
