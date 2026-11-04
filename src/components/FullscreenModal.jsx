@@ -403,12 +403,12 @@ export function FullscreenModal({ activeItem, onClose }) {
                 <span>LinkedIn Profile</span>
               </a>
               <a
-                href="mailto:iamrajveer28@gmail.com"
+                href="mailto:rajsingraj234@gmail.com"
                 className="cdesk__btn cdesk__btn--mint"
                 style={{ fontSize: '12px', padding: '6px 14px', display: 'inline-flex', alignItems: 'center', gap: '6px' }}
               >
                 <StreamlineIcon name="mail" size={14} color="#065F46" strokeWidth={2} />
-                <span>iamrajveer28@gmail.com</span>
+                <span>rajsingraj234@gmail.com</span>
               </a>
             </div>
           )}
@@ -625,7 +625,7 @@ export function FullscreenModal({ activeItem, onClose }) {
           {/* Action Footer */}
           <div style={{ display: 'flex', gap: '14px', alignItems: 'center', borderTop: '1px solid #212121', paddingTop: '24px', flexWrap: 'wrap' }}>
             <a
-              href="mailto:iamrajveer28@gmail.com"
+              href="mailto:rajsingraj234@gmail.com"
               className="cdesk__btn cdesk__btn--mint"
               style={{
                 display: 'inline-flex',
@@ -638,7 +638,7 @@ export function FullscreenModal({ activeItem, onClose }) {
               }}
             >
               <StreamlineIcon name="mail" size={16} color="#065F46" strokeWidth={2} />
-              <span>Contact Rajveer Singh (iamrajveer28@gmail.com)</span>
+              <span>Contact Rajveer Singh (rajsingraj234@gmail.com)</span>
               <StreamlineIcon name="external-link" size={14} strokeWidth={2} />
             </a>
             <button

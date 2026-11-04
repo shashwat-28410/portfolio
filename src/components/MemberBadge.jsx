@@ -85,7 +85,7 @@ export function MemberBadge({
   jobTitle = 'Full-Stack Developer | AI/ML',
   handle = '@shashwat-28410',
   signature = null,
-  email = 'iamrajveer28@gmail.com',
+  email = 'rajsingraj234@gmail.com',
   orgName = 'Newton School of Technology',
   owner = true,
   ambient = true,

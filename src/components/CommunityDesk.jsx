@@ -330,7 +330,7 @@ export function CommunityDesk() {
                     name="Rajveer Singh"
                     jobTitle="Full-Stack Developer | AI/ML"
                     handle="@shashwat-28410"
-                    email="iamrajveer28@gmail.com"
+                    email="rajsingraj234@gmail.com"
                     orgName="Newton School of Technology"
                     ambient={true}
                     onClick={() => openItem('bio')}
@@ -543,7 +543,7 @@ export function CommunityDesk() {
                 </button>
                 <a
                   className="cdesk__btn"
-                  href="mailto:iamrajveer28@gmail.com"
+                  href="mailto:rajsingraj234@gmail.com"
                 >
                   Hire Me / Email
                 </a>
@@ -618,7 +618,7 @@ export function CommunityDesk() {
               <footer className="cdesk__menu-cta">
                 <a
                   className="cdesk__btn cdesk__btn--mint"
-                  href="mailto:iamrajveer28@gmail.com"
+                  href="mailto:rajsingraj234@gmail.com"
                 >
                   Hire Rajveer →
                 </a>

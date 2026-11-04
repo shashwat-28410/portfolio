@@ -159,7 +159,7 @@ export const DESK_CARDS = [
         'Current Status: Open for Software Engineering Internships, Full-Stack Roles & Freelance Projects'
       ],
       learnMore: {
-        href: 'mailto:iamrajveer28@gmail.com',
+        href: 'mailto:rajsingraj234@gmail.com',
         label: 'Get in Touch for Opportunities'
       }
     }
@@ -185,10 +185,10 @@ export const DESK_CARDS = [
         'Known Tech Stacks: Node.js, Express.js, React.js, Python, JS',
         'Primary Focus: Node.js, Express.js, React.js, Python, Supabase, PostgreSQL, WebRTC, OpenAI API',
         'Current Status: Open to Software Developer Internships, Freelance Projects & Hackathon Collaborations',
-        'Contact: iamrajveer28@gmail.com'
+        'Contact: rajsingraj234@gmail.com'
       ],
       learnMore: {
-        href: 'mailto:iamrajveer28@gmail.com',
+        href: 'mailto:rajsingraj234@gmail.com',
         label: 'Send Email Directly'
       }
     }
@@ -208,15 +208,15 @@ export const DESK_CARDS = [
       shout: "LET'S BUILD SOMETHING IMPACTFUL TOGETHER",
       bulletsIntro: 'Connect across channels:',
       bullets: [
-        'Email: iamrajveer28@gmail.com — Best for internships & inquiries',
+        'Email: rajsingraj234@gmail.com — Best for internships & inquiries',
         'GitHub: github.com/shashwat-28410 — Public repositories & project source code',
         'LinkedIn: linkedin.com/in/rj-b96407374 — Professional profile & networking',
         'Location: Bengaluru, Karnataka, India',
         'Live Projects: couplewatch.in & mission-ai-copilot.onrender.com'
       ],
       learnMore: {
-        href: 'mailto:iamrajveer28@gmail.com',
-        label: 'Email iamrajveer28@gmail.com'
+        href: 'mailto:rajsingraj234@gmail.com',
+        label: 'Email rajsingraj234@gmail.com'
       }
     }
   }
